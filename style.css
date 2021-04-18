@@ -1,0 +1,15 @@
+body {
+	background-image: url(img/repeat-image.jpg);
+}
+
+div {
+	background-color: white;
+	padding: 10%;
+	width: 70%;
+	text-align: justify;
+	margin: auto;
+	background-image: url(img/top-bg.png), url(img/bottom-bg.png), url(img/center-bg.png);
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-size: 100%;
+	background-position: top, bottom, center;
+}
